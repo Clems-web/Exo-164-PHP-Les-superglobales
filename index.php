@@ -7,3 +7,7 @@
  * 3. Uploadez ce projet sur votre serveur et testez !
  */
 // TODO Votre code ici
+$data = $_SERVER;
+foreach ($data as $element => $value) {
+    echo "$element = $value" . "<br>";
+}
